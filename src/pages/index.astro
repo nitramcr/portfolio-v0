@@ -4,8 +4,10 @@ import { info } from "@data";
 import Layout from "@layouts/Layout.astro";
 import Hero from "@components/home/Hero.astro";
 import Experience from "@components/home/Experience.astro";
+import Education from "@components/home/Education.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
+
 
 const featureProjects = info.projects.reduce((accumulator, project) => {
   if (accumulator.length < 6 && project.isFeatured) {
@@ -17,19 +19,20 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <link>
     <MetaHead
       title={"Portfolio"}
       description={info.about}
-      ogImageUrl={"/assets/images/profile.png"}
+      ogImageUrl={"/assets/images/logo-letter-n.png"}
     />
+    <link rel="shortcut icon" href="/assets/images/logo-letter-n.png"/>
   </head>
 
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EXPERIENCE"} details={info.experience} />
-      <Experience title={"EDUCATION"} details={info.education} />
+      <Experience title={"EXPERIENCE"} experience={info.experience} />
+      <Education title={"EDUCATION"} education={info.education} />
       <section>
         <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
         <ProjectsWrapper projects={featureProjects} />

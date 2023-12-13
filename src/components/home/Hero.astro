@@ -1,13 +1,16 @@
 ---
-import { IHeroProps } from "@types";
-
-const { name, about } = Astro.props as IHeroProps;
+const { name, about } = Astro.props;
 ---
 
 <section>
   <p class="dark:text-light mt-[117px]">Hey, I’m</p>
   <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
-    {about}
-  </p>
+
+  <div class="mb-16">
+    {about.map((description, i) => (
+    <p class="dark:text-light text-lg mb-1">
+      {description}
+    </p>    
+    ))}
+  </div>
 </section>

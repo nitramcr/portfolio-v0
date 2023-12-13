@@ -1,7 +1,5 @@
 ---
-import { IExperiences } from "@types";
-
-const { title, details } = Astro.props as IExperiences;
+const { title, experience } = Astro.props ;
 ---
 
 <section
@@ -10,12 +8,12 @@ const { title, details } = Astro.props as IExperiences;
   <h2 class="w-[15rem] mt-16">{title}</h2>
   <div class="w-full">
     {
-      details.map((item) => (
+      experience.map((item) => (
         <div class="my-16">
           <div class="flex justify-between items-center flex-wrap">
             <h3 class="text-xl font-semibold">{item.name}</h3>
             <p class="text-sm dark:text-gray">
-              {item.startDate} - {item.endDate}
+              {item.startDate}  {item.endDate}
             </p>
           </div>
           <p class="text-sm mt-3 text-blue">{item.location}</p>
@@ -28,4 +26,6 @@ const { title, details } = Astro.props as IExperiences;
       ))
     }
   </div>
+
+  
 </section>
