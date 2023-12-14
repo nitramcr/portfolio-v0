@@ -65,5 +65,42 @@ export const info = {
       githubUrl: 'https://github.com/nitramcr/',
       liveUrl: 'https://github.com/nitramcr/',
     },
+    {
+      title: 'React & tailwindcss GPT-3 clone (Figma design)',
+      isFeatured: true,
+      thumbnail: '/assets/images/gpt3-clone-figma.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'Responsive Vanilla.js dashboard',
+      isFeatured: true,
+      thumbnail: '/assets/images/vanilla-dashboard.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
+
+    {
+      title: 'React & tailwindcss Restaurant Web (Figma design)',
+      isFeatured: true,
+      thumbnail: '/assets/images/restaurant-figma.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'React & tailwindcss Nike SPA',
+      isFeatured: true,
+      thumbnail: '/assets/images/react-nike.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'React & tailwindcss (Figma design)',
+      isFeatured: true,
+      thumbnail: '/assets/images/react-tailwind-1st.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'React TODO App',
+      isFeatured: true,
+      thumbnail: '/assets/images/todo-app.png',
+      githubUrl: 'https://github.com/nitramcr/',
+    },
   ],
 }
