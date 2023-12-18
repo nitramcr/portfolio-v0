@@ -1,11 +1,11 @@
 export const info = {
   baseUrl: 'https://nitramcr',
-  name: 'Martín Ramírez',
+  name: 'Martín Ramirez',
   jobDescription: 'Frontend Developer',
   about: [
     'I’m a Jr. Frontend Developer based in Mendoza, Argentina. I’m already looking to find my first experience as a Web Developer.',
     'More of 5 years competing at a high level in esports have given me skills such as teamwork, communication, problem solving and adaptability under pressure.',
-    'My technological stack is based on HTML, CSS, JavaScript, React and Tailwind. I also gained some knowledge of Astro, NodeJS and TypeScript.',
+    'My technological stack is based on HTML, CSS, JavaScript, React, Tailwind and Astro. I also gained some knowledge of NodeJS and TypeScript.',
     'As a autodidact, I learn continuously and never stop exploring new technologies.',
   ],
 
@@ -16,6 +16,7 @@ export const info = {
       startDate: '2017 /',
       endDate: '2018',
       description: [
+        'Professional Clash Royale player.',
         '- Main achievements: 1st place in ESWC Latam, and 15th in ESWC Paris Games Week.',
       ],
     },
@@ -25,6 +26,7 @@ export const info = {
       location: 'México, CDMX',
       startDate: '2018',
       description: [
+        'Professional Clash Royale player.',
         '- Main achievements: 6th place in CRL Latam, competition that lasted 3 months in CDMX.',
       ],
     },
@@ -35,7 +37,18 @@ export const info = {
       startDate: '2019 /',
       endDate: '2020',
       description: [
+        'Professional Clash Royale player.',
         '- I competed for 6 months in the CRL West in Los Angeles.',
+      ],
+    },
+
+    {
+      name: 'Sura Gaming',
+      location: 'Argentina',
+      startDate: '2022',
+      description: [
+        'Professional Axie Infinity player. (Web 3 Game)',
+        '- I competed for 1 year both online and in person. 3th place Aside Event AxieCon in Barcelona.',
       ],
     },
   ],
@@ -66,25 +79,17 @@ export const info = {
       // liveUrl: 'https://github.com/nitramcr/',
     },
     {
-      title: 'React & tailwindcss GPT-3 clone (Figma design)',
-      isFeatured: true,
-      thumbnail: '/assets/images/gpt3-clone-figma.png',
-      githubUrl: 'https://github.com/nitramcr/gpt3-clone',
-      // liveUrl: 'https://github.com/nitramcr/',
-    },
-    {
-      title: 'Responsive Vanilla.js dashboard',
-      isFeatured: true,
-      thumbnail: '/assets/images/vanilla-dashboard.png',
-      githubUrl: 'https://github.com/nitramcr/dashboard-responsive',
-      // liveUrl: 'https://github.com/nitramcr/',
-    },
-
-    {
       title: 'React & tailwindcss Restaurant Web (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/restaurant-figma.png',
       githubUrl: 'https://github.com/nitramcr/restaurant-spa',
+      // liveUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'React & tailwindcss GPT-3 clone (Figma design)',
+      isFeatured: true,
+      thumbnail: '/assets/images/gpt3-clone-figma.png',
+      githubUrl: 'https://github.com/nitramcr/gpt3-clone',
       // liveUrl: 'https://github.com/nitramcr/',
     },
     {
@@ -99,6 +104,13 @@ export const info = {
       isFeatured: true,
       thumbnail: '/assets/images/react-tailwind-1st.png',
       githubUrl: 'https://github.com/nitramcr/data-react-web',
+      // liveUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'Responsive Vanilla.js dashboard',
+      isFeatured: true,
+      thumbnail: '/assets/images/vanilla-dashboard.png',
+      githubUrl: 'https://github.com/nitramcr/dashboard-responsive',
       // liveUrl: 'https://github.com/nitramcr/',
     },
     {

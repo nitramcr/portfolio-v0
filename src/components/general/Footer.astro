@@ -6,14 +6,14 @@ import { info } from "@data";
   class="container flex sm:flex-row flex-col justify-around items-center mb-8 sm:mb-4"
 >
   <p class="dark:text-light text-right my-8">
-    Developed by <strong>NitramCR</strong>
+    Developed by <strong class="text-blue">nitramcr</strong>
   </p>
-  <div class="grid grid-cols-5 gap-4">
+  <div class="grid grid-cols-4 gap-4">
     <a
       aria-label="Social Media"
       href={info.socialMedia.twitter}
       target="_blank"
-      class="footer-icons"
+      class="footer-icons hover:bg-[#2d9bf0]"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ import { info } from "@data";
       aria-label="Social Media"
       href={info.socialMedia.github}
       target="_blank"
-      class="footer-icons"
+      class="footer-icons hover:bg-slate-500"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ import { info } from "@data";
       aria-label="Social Media"
       href={info.socialMedia.linkedin}
       target="_blank"
-      class="footer-icons"
+      class="footer-icons hover:bg-[#1E66C2]"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ import { info } from "@data";
       aria-label="Social Media"
       href={info.socialMedia.email}
       target="_blank"
-      class="footer-icons"
+      class="footer-icons hover:bg-[#d23d31]"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -100,27 +100,5 @@ import { info } from "@data";
         ></path><polyline points="22,6 12,13 2,6"></polyline>
       </svg>
     </a>
-    <!-- <a
-      aria-label="Social Media"
-      href={info.socialMedia.facebook}
-      target="_blank"
-      class="footer-icons"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-facebook"
-        ><path
-          d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-        ></path>
-      </svg>
-    </a> -->
   </div>
 </footer>
