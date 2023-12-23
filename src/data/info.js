@@ -79,6 +79,13 @@ export const info = {
       // liveUrl: 'https://github.com/nitramcr/',
     },
     {
+      title: 'Sophilabs clone with React & tailwindcss (Developing...)',
+      isFeatured: true,
+      thumbnail: '/assets/images/sophilabs-clone.webp',
+      githubUrl: 'https://github.com/nitramcr/sophilabs-clone',
+      // liveUrl: 'https://github.com/nitramcr/',
+    },
+    {
       title: 'React & tailwindcss Restaurant Web (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/restaurant-figma.webp',
