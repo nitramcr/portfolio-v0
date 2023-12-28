@@ -57,7 +57,7 @@ export const info = {
     {
       name: 'Autodidact studies',
       description: [
-        '- +30 courses completed on platforms such as Platzi and edX - Certificates: ',
+        '- +30 courses completed on platforms such as Platzi and edX ',
         '- Independent learning capacity, fast and effective. I’m always learning new technologies.',
       ],
     },
