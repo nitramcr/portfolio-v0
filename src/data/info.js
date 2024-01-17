@@ -3,34 +3,31 @@ export const info = {
   name: 'Martín Ramirez',
   jobDescription: 'Frontend Developer',
   about: [
-    'I’m a Jr. Frontend Developer based in Mendoza, Argentina. I’m already looking to find my first experience as a Web Developer.',
+    'I’m a Jr. Frontend Developer based in Mendoza, Argentina. I’m looking work experience as a Developer, after some experiences as a freelancer.',
+    'My technological stack is based on HTML, CSS, JavaScript, React, Tailwind and Astro. I also gained some knowledge of NodeJS, TypeScript and in severless architecture with some BaaS services to develop Full Stack Applications.',
     'More of 5 years competing at a high level in esports have given me skills such as teamwork, communication, problem solving and adaptability under pressure.',
-    'My technological stack is based on HTML, CSS, JavaScript, React, Tailwind and Astro. I also gained some knowledge of NodeJS and TypeScript.',
     'As a autodidact, I learn continuously and never stop exploring new technologies.',
   ],
 
   experience: [
     {
-      name: 'TeamQueso',
-      location: 'Spain, Madrid',
-      startDate: '2017 /',
-      endDate: '2018',
+      name: 'Freelance Web Developer',
+      location: 'Argentina',
+      startDate: '2023',
       description: [
-        'Professional Clash Royale player.',
-        '- Main achievements: 1st place in ESWC Latam, and 15th in ESWC Paris Games Week.',
+        '- Crafted fully customized Web Applications from inception to deployment, seamlessly integrating personalized domain connections.',
+        '- Utilized serverless architecture as needed and proficiently managed databases.',
       ],
     },
-
     {
-      name: 'Sandstorm',
-      location: 'México, CDMX',
-      startDate: '2018',
+      name: 'Sura Gaming',
+      location: 'Argentina',
+      startDate: '2022',
       description: [
-        'Professional Clash Royale player.',
-        '- Main achievements: 6th place in CRL Latam, competition that lasted 3 months in CDMX.',
+        'Professional Axie Infinity player. (Web 3 Game)',
+        '- I competed for 1 year both online and in person. 3th place Aside Event AxieCon in Barcelona.',
       ],
     },
-
     {
       name: 'Tribe Gaming',
       location: 'United States, Texas',
@@ -41,14 +38,23 @@ export const info = {
         '- I competed for 6 months in the CRL West in Los Angeles.',
       ],
     },
-
     {
-      name: 'Sura Gaming',
-      location: 'Argentina',
-      startDate: '2022',
+      name: 'Sandstorm',
+      location: 'México, CDMX',
+      startDate: '2018',
       description: [
-        'Professional Axie Infinity player. (Web 3 Game)',
-        '- I competed for 1 year both online and in person. 3th place Aside Event AxieCon in Barcelona.',
+        'Professional Clash Royale player.',
+        '- Main achievements: 6th place in CRL Latam, competition that lasted 3 months in CDMX.',
+      ],
+    },
+    {
+      name: 'TeamQueso',
+      location: 'Spain, Madrid',
+      startDate: '2017 /',
+      endDate: '2018',
+      description: [
+        'Professional Clash Royale player.',
+        '- Main achievements: 1st place in ESWC Latam, and 15th in ESWC Paris Games Week.',
       ],
     },
   ],
