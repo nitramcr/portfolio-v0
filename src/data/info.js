@@ -11,7 +11,7 @@ export const info = {
 
   experience: [
     {
-      name: 'Freelance Web Developer',
+      name: 'Freelance Software Developer',
       location: 'Argentina',
       startDate: '2023',
       description: [
@@ -82,63 +82,60 @@ export const info = {
       isFeatured: true,
       thumbnail: '/assets/images/web-framer-motion.webp',
       githubUrl: 'https://github.com/nitramcr/web-framer-motion',
-      // liveUrl: 'https://github.com/nitramcr/',
+    },
+    {
+      title: 'Web for client using React and Firebase to manage the backend',
+      isFeatured: true,
+      thumbnail: '/assets/images/yospanish.webp',
+      liveUrl: 'https://yospanish.com.au/',
     },
     {
       title: 'Sophilabs clone with React & tailwindcss (Developing...)',
       isFeatured: true,
       thumbnail: '/assets/images/sophilabs-clone.webp',
       githubUrl: 'https://github.com/nitramcr/sophilabs-clone',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React & tailwindcss Restaurant Web (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/restaurant-figma.webp',
       githubUrl: 'https://github.com/nitramcr/restaurant-spa',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React & tailwindcss GPT-3 clone (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/gpt3-clone-figma.webp',
       githubUrl: 'https://github.com/nitramcr/gpt3-clone',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React & tailwindcss Nike SPA clone',
       isFeatured: true,
       thumbnail: '/assets/images/react-nike.webp',
       githubUrl: 'https://github.com/nitramcr/nike-react-tailwind',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React & tailwindcss (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/react-tailwind-1st.webp',
       githubUrl: 'https://github.com/nitramcr/data-react-web',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'Responsive Vanilla.js dashboard',
       isFeatured: true,
       thumbnail: '/assets/images/vanilla-dashboard.webp',
       githubUrl: 'https://github.com/nitramcr/dashboard-responsive',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React TODO App',
       isFeatured: true,
       thumbnail: '/assets/images/todo-app.webp',
       githubUrl: 'https://github.com/nitramcr/react-todo-app',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
     {
       title: 'React & tailwindcss Bank (Figma design)',
       isFeatured: true,
       thumbnail: '/assets/images/bank-clone.webp',
       githubUrl: 'https://github.com/nitramcr/bank-spa',
-      // liveUrl: 'https://github.com/nitramcr/',
     },
   ],
 }
