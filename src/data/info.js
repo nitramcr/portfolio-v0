@@ -86,7 +86,7 @@ export const info = {
     {
       title: 'Web for client using React and Firebase to manage the backend',
       isFeatured: true,
-      thumbnail: '/assets/images/yospanish.webp',
+      thumbnail: '/assets/images/ys-webpage.webp',
       liveUrl: 'https://yospanish.com.au/',
     },
     {
